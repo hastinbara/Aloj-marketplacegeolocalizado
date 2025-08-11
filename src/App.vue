@@ -4,7 +4,7 @@
     <!-- Topbar -->
     <q-header elevated class="bg-primary text-white">
       <q-toolbar>
-        <q-toolbar-title>
+        <q-toolbar-title class="cursor-pointer" @click="$router.push('/')">
           🌍 Aloj — Marketplace
         </q-toolbar-title>
       </q-toolbar>
@@ -18,9 +18,9 @@
 </template>
 
 <script setup>
-// Layout simples com Quasar
+// Layout principal com navegação para Home ao clicar no título
 </script>
 
 <style>
-/* Aqui pode entrar algum estilo global extra */
+/* Ajuste global opcional */
 </style>
